@@ -1,0 +1,18 @@
+===========clean===============
+make -C /lib/modules/5.15.107+/build M=/home/cuongtc/linux-5.15.107/drivers/exveri clean
+make[1]: Entering directory '/home/cuongtc/linux-5.15.107'
+  CLEAN   /home/cuongtc/linux-5.15.107/drivers/exveri/Module.symvers
+make[1]: Leaving directory '/home/cuongtc/linux-5.15.107'
+===========build===============
+===============================
+===============================
+===============================
+make -C /lib/modules/5.15.107+/build M=/home/cuongtc/linux-5.15.107/drivers/exveri modules
+make[1]: Entering directory '/home/cuongtc/linux-5.15.107'
+  CC [M]  /home/cuongtc/linux-5.15.107/drivers/exveri/exveri.o
+  MODPOST /home/cuongtc/linux-5.15.107/drivers/exveri/Module.symvers
+  CC [M]  /home/cuongtc/linux-5.15.107/drivers/exveri/exveri.mod.o
+  LD [M]  /home/cuongtc/linux-5.15.107/drivers/exveri/exveri.ko
+  BTF [M] /home/cuongtc/linux-5.15.107/drivers/exveri/exveri.ko
+make[1]: Leaving directory '/home/cuongtc/linux-5.15.107'
+===========load===============
